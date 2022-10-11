@@ -13,12 +13,10 @@
         display: block;
         text-align: left;
     }
-    .desktop-menu{
-        display: none;
-    }
  }
- @media (min-width: 993px)  { 
-    .desktop-menu{
-        display: block;
+ @media (min-width: 993px)  {
+    .nav-links a{
+        display: inline;
+        text-align: left;
     }
  }

@@ -6,12 +6,11 @@ import './Navbar.css';
 const Navbar = () => {
     return (
             <div className="row">
-                <div className="desktop-menu"></div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 d-sm-none d-lg-block">
                         <div className="logo">
                         <img src={logo} alt="" className="img-fluid" /></div>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 d-sm-none d-lg-block">
                             <div className="nav-links">
                                 <NavLink to='/'>Home</NavLink>
                                 <NavLink to='/blog'>Blog</NavLink>
@@ -20,7 +19,6 @@ const Navbar = () => {
                                 <NavLink to='/quiz'>Quiz</NavLink>
                             </div>
                         </div>
-
                
                 {/* Mobile Responsive */}
                <div className="mobile-menu d-lg-none">

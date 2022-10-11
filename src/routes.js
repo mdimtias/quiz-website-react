@@ -4,6 +4,7 @@ import Blog from "./components/Blog/Blog";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Quiz from "./components/Quiz/Quiz";
+import Statistics from './components/Statistics/Statistics';
 import Main from "./layouts/Main";
 
 const router = createBrowserRouter([
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
             {
                 path: '/quiz/:id',
                 element: <Quiz></Quiz>
+            },
+            {
+                path: '/statistics.js',
+                loader: fetch("quiz.json"),
+                element: <Statistics></Statistics>
             },
             {
                 path: '/about',
