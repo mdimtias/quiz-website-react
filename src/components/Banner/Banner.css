@@ -1,0 +1,15 @@
+.banner-text h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner-text p{
+    font-size: 18px;
+    color:#000;
+}
+.banner-text button{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    
+}

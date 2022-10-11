@@ -1,0 +1,16 @@
+.category-text{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.category-text a{
+    text-decoration: none;
+    padding: 0px 20px;
+    background-color: aquamarine;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+.category-container{
+    margin-bottom: 15px;
+}

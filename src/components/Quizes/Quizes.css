@@ -1,0 +1,24 @@
+body{
+    background-color: #F3F5F9;
+}
+.questions{
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px;
+}
+.question{
+    font-size: 21px;
+    color: #383838;
+    font-weight: bold;
+}
+.option{
+    background-color: #efefef;
+    padding: 7px;
+    margin: 8px;
+}
+.question-item {
+    background-color: #efefef;
+    margin: 10px;
+    color: #3c4b64;
+    list-style-type: none;
+}
