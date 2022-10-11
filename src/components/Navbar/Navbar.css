@@ -1,0 +1,24 @@
+.nav-links a{
+    text-decoration: none;
+    padding: 10px;
+    color:#000;
+}
+.nav-links{
+    text-align: right;
+    padding: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 992px) { 
+    .nav-links a{
+        display: block;
+        text-align: left;
+    }
+    .desktop-menu{
+        display: none;
+    }
+ }
+ @media (min-width: 993px)  { 
+    .desktop-menu{
+        display: block;
+    }
+ }
