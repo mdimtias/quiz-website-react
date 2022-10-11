@@ -9,8 +9,8 @@ const Quiz = () => {
         fetch(`https://openapi.programming-hero.com/api/quiz/${id}`)
         .then(res=>res.json())
         .then(data=>setData(data.data.questions))
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
-    console.log(data)
     return (
         <div className="container">
            {data.map(question=><Quizes quizQuestion={question} key={question.id}></Quizes>)}

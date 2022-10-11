@@ -1,5 +1,5 @@
 import React from 'react';
-import {useLoaderData, useParams} from 'react-router-dom';
+import {useLoaderData} from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Item from '../Item/Item';
 import './Home.css';

@@ -3,7 +3,7 @@ import './Quizes.css';
 const Quizes = ({quizQuestion}) => {
    
     const {question, options} = quizQuestion;
-    console.log(options[0])
+    console.log(quizQuestion)
     return (
         <div className="questions">
             <h1 className="question">{question}</h1>

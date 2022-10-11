@@ -24,8 +24,8 @@ const router = createBrowserRouter([
                 element: <Quiz></Quiz>
             },
             {
-                path: '/statistics.js',
-                loader: fetch("quiz.json"),
+                path: '/statistics',
+                loader: ()=> fetch("quiz.json"),
                 element: <Statistics></Statistics>
             },
             {
