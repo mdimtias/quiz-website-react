@@ -29,3 +29,12 @@ body{
     color: #3c4b64;
     list-style-type: none;
 }
+.svg-btn{
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+.question-container{
+    display:flex;
+    justify-content: space-between;
+}
