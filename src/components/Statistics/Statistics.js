@@ -23,7 +23,6 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
       ];
 const Statistics = () => {
     const {data} = useLoaderData();
-    console.log(data)
    
     return (
      <div className='container'>

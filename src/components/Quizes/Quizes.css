@@ -16,6 +16,13 @@ body{
     padding: 7px;
     margin: 8px;
 }
+.option button{
+    border: none;
+    padding: 0;
+    height: 10px;
+    font-size: 0px;
+    margin-top: 16px;
+}
 .question-item {
     background-color: #efefef;
     margin: 10px;

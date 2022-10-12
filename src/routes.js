@@ -12,11 +12,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Main></Main>,
         errorElement: <ErrorPage></ErrorPage>,
-        loader: ()=> fetch("quiz.json"),
         children:[
             {
                 path: '/',
-                loader: ()=> fetch("quiz.json"),
+                loader: ()=> fetch("https://openapi.programming-hero.com/api/quiz"),
                 element: <Home></Home>
             },
             {
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/statistics',
-                loader: ()=> fetch("quiz.json"),
+                loader: ()=> fetch("https://openapi.programming-hero.com/api/quiz"),
                 element: <Statistics></Statistics>
             },
             {

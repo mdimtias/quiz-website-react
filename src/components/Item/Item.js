@@ -6,7 +6,6 @@ const Item = ({item}) => {
     const {id, name, logo} = item;
     const quizLinks = "Quiz/"+id;
     let  userId  = useParams();
-    console.log(userId)
     return (
         <div className="col-lg-3 category-container">
             <img src={logo} alt="" className="img-fluid" />
