@@ -10,7 +10,7 @@ const Quiz = () => {
         fetch(`https://openapi.programming-hero.com/api/quiz/${id}`)
         .then(res=>res.json())
         .then(data=> {
-            return setData(data.data.questions), setName(data.data)
+            return (setData(data.data.questions), setName(data.data))
         })
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])

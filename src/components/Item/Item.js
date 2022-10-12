@@ -1,11 +1,10 @@
 import React from 'react';
-import {NavLink, useParams} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './Item.css'
 
 const Item = ({item}) => {
     const {id, name, logo} = item;
     const quizLinks = "Quiz/"+id;
-    let  userId  = useParams();
     return (
         <div className="col-lg-3 col-md-6 category-container mb-2">
             <div className="card">

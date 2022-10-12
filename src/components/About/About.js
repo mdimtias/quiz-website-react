@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const About = () => {
     return (
@@ -25,7 +26,7 @@ const About = () => {
                     <p>Your quiz can either appear sporadically on your screensaver or pop up right away on your employees’ computer screen on a specific time and date. Want to send specific quizzes to specific people or departments? No problem. Quizzes can be targeted to groups or even individuals. This way you don’t bother HR with IT quizzes and vice versa.</p> 
 
                     <h2>quizzing</h2>
-                    <p>Just keep in mind that the end of a training session shouldn’t be the end of the learning process. Quiz your employees to make them remember important information longer and more effectively. Contact one of our experts now and start quizzing away! <a href="https://www.netpresenter.com/knowledge-center/employee-training/quizzing-employees" target='_blank'>content</a></p>
+                    <p>Just keep in mind that the end of a training session shouldn’t be the end of the learning process. Quiz your employees to make them remember important information longer and more effectively. Contact one of our experts now and start quizzing away! <Link to="https://www.netpresenter.com/knowledge-center/employee-training/quizzing-employees" target='_blank' rel="noreferrer">content</Link></p>
             </div>
         </div>
     );

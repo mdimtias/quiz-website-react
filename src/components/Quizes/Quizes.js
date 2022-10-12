@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Quizes.css';
@@ -14,7 +14,7 @@ const Quizes = ({quizQuestion}) => {
 		if(value === correctAnswer){
             toast.success('Correct Answer!', {
                 position: "top-center",
-                autoClose: 1000,
+                autoClose: 500,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -25,7 +25,7 @@ const Quizes = ({quizQuestion}) => {
 		}else{
             toast.warn('Wrong Answer!', {
                 position: "top-center",
-                autoClose: 1000,
+                autoClose: 500,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
