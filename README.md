@@ -18,11 +18,14 @@ Run the app command npm start
 
 ### To clone locally:
 
-<code>git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Zannatwebsolution.git
-cd b6-quiz-crackerz-Zannatwebsolution
-npm install // or yarn
-npm start</code>
+<code>git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Zannatwebsolution.git </code>
+
+<code> cd b6-quiz-crackerz-Zannatwebsolution</code>
+
+<code> npm install // or yarn</code>
+
+<code> npm start</code>
 
 ## Environment Support
-Modern browsers and Internet Explorer 9+
-Server-side Rendering
+* Modern browsers and Internet Explorer 9+
+* Server-side Rendering
