@@ -16,8 +16,8 @@ const Blog = () => {
         }
     ]
     return (
-        <div className="container">
-            
+        <div className="container p-5">
+            {data.map(blog=><div><h2>{blog.title}</h2><p>{blog.content}</p></div>)}
         </div>
     );
 };

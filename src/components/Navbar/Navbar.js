@@ -16,7 +16,7 @@ const Navbar = () => {
                                 <NavLink to='/blog'>Blog</NavLink>
                                 <NavLink to='/statistics'>Statistic</NavLink>
                                 <NavLink to='/about'>About</NavLink>
-                                <NavLink to='/quiz'>Quiz</NavLink>
+                                <NavLink to='/quiz/1'>Quiz</NavLink>
                             </div>
                         </div>
                
@@ -39,7 +39,7 @@ const Navbar = () => {
                             <NavLink to='/blog'>Blog</NavLink>
                             <NavLink to='/statistics'>statistic</NavLink>
                             <NavLink to='/about'>About</NavLink>
-                            <NavLink to='/quiz'>Quiz</NavLink>
+                            <NavLink to='/quiz/1'>Quiz</NavLink>
                         </div>
                     </div>
                </div>

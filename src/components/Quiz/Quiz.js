@@ -13,7 +13,7 @@ const Quiz = () => {
     },[])
     return (
         <div className="container">
-           {data.map(question=><Quizes quizQuestion={question} key={question.id}></Quizes>)}
+           {data.map(question=><Quizes quizQuestion={question} key={question.id} name=""></Quizes>)}
         </div>
     );
 };
